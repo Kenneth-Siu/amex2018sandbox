@@ -6,8 +6,8 @@ public class Arrays {
     }
 
     public static void sort(Object[] a) {
-        var sevenUp = a[3];
-        var sprite = a[1];
+        Object sevenUp = a[3];
+        Object sprite = a[1];
         a[3] = sprite;
         a[1] = sevenUp;
     }
