@@ -1,6 +1,6 @@
 package training.sandbox.animal;
 
-public class Cat extends Animal {
+public class Cat extends Animal implements HasLimbs {
 
     public String name;
 
